@@ -1,0 +1,109 @@
+body {
+    /* Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    /* Padronização de cores e fonte */
+    font-family: 'Roboto', 'sans-serif';
+    background-color:  whitesmoke;
+    color: #0d3b14;
+}
+
+.caixa {
+    margin-top: 360px;
+    
+}
+
+.caixa img {
+    width: 450px;
+    position: absolute;
+    left: 800px;
+    top: 50px;
+}
+
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.email input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 38px;
+    padding-left: 15px;
+    margin-bottom: 7px;
+    background-color: #0d3b14;
+    color: #96979e;
+}
+
+.email input::placeholder{
+    color: #f3cb49;
+}  
+
+.password input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 38px;
+    padding-left: 15px;
+    background-color: #0d3b14;
+    color: #96979e;
+    margin-bottom: 7px;
+}
+
+.password input::placeholder{
+    color: #f3cb49;
+}  
+
+.entrar input {
+    border-radius: 20px;
+    border: none;
+    background-color: #e78441;
+    color: #304233;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.entrar input:hover {
+    background-color: #f1a769;
+}
+
+.entrar p a{
+    text-decoration: none;
+    color: #f3cb49;
+}
+
+
+/* REGISTRO */
+
+.nome input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 38px;
+    padding-left: 15px;
+    margin-bottom: 7px;
+    background-color: #0d3b14;
+    color: #96979e;
+}
+.nome input::placeholder{
+    color: #f3cb49;
+}  
+
+.confirm input {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 38px;
+    padding-left: 15px;
+    background-color: #0d3b14;
+    color: #96979e;
+}
+
+.confirm input::placeholder{
+    color: #f3cb49;
+}  
